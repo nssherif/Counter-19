@@ -4,6 +4,12 @@ body {
 	min-width: 960px;
 	margin: 0;
 }
+
+.title{
+
+	text-align: center;
+	transform: translateY(30px);
+}
 img {
 	display: block;
 	border: 0;
@@ -124,7 +130,7 @@ img {
 }
 /*------------ HEADER ------------*/
 #header {
-	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
+	background: #ffffff;
 	padding: 40px 0 46px;
 }
 /** logo **/
