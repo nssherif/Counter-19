@@ -9,6 +9,12 @@ body {
 
 	text-align: center;
 	transform: translateY(30px);
+	
+}
+#counterlogo{
+	border-radius: 20px;
+	height: 90px;
+	width: 120px;
 }
 img {
 	display: block;
@@ -47,19 +53,57 @@ img {
 .more, .subscribe, input[type='submit'] {
 	background: url(../images/interface.png) no-repeat;
 }
+.dangerous{
+	text-align: center;
+	background-color: red;
+	font-size: 20px;
+	border-radius: 0.5px;
+	height: 30px;
+}
+.safe{
+	text-align: center;
+	background-color: green;
+	font-size: 20px;
+	border-radius: 0.5px;
+	height: 30px;
+}
+.medium{
+	text-align: center;
+	background-color: yellow;
+	font-size: 20px;
+	border-radius: 0.5px;
+	height: 30px;
+}
+.number{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
 .phone, .mail, .home, .fax, #footnote .connect a {
 	background: url(../images/icons.png) no-repeat;
 }
 .frame1, .frame2, .frame3, .frame4, .frame5, .news > li {
 	background: url(../images/frames.png) no-repeat;
 }
-.more, .subscribe, input[type='submit'] {
+.subscribe, input[type='submit'] {
 	background-position: -107px 0;
 	color: #fff;
 	display: inline-block;
 	font: 12px/28px Arial, Helvetica, sans-serif;
 	height: 28px;
 	width: 97px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+	text-transform: uppercase;
+}
+.more{
+	background-position: -107px 0;
+	color: #fff;
+	display: inline-block;
+	font: 12px/28px Arial, Helvetica, sans-serif;
+	height: 38px;
+	width: 150px;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
@@ -130,9 +174,10 @@ img {
 }
 /*------------ HEADER ------------*/
 #header {
-	background: #ffffff;
-	padding: 40px 0 46px;
+	background:#293039;
+	padding: 40px 0 46px;	
 }
+
 /** logo **/
 .logo {
 	float: left;
@@ -223,7 +268,8 @@ p a:hover {
 }
 /** Adbox **/
 #adbox {
-	background: url(../images/bg-adbox.png) no-repeat center bottom;
+	/* background: url(../images/bg-adbox.png) no-repeat center bottom; */
+	background-color: white;
 	border-bottom: 1px solid #fff;
 	padding-top: 15px;
 }
@@ -296,12 +342,14 @@ p a:hover {
 }
 .featured {
 	padding: 30px 0;
+	background-color: #293039;
 }
 .featured > h2 {
-	color: #728063;
+	color: #ff914d;
 	width: 940px;
 	margin: 0 auto 24px;
 	padding: 0 10px;
+	font-size: 35px;
 }
 .featured ul {
 	list-style: none;
@@ -314,6 +362,7 @@ p a:hover {
 }
 .featured li p {
 	padding-left: 4px;
+	color: white;
 }
 .featured li p b {
 	display: block;
